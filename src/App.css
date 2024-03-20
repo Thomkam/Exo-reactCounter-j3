@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+/* .body {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+} */
+
+.header {
+  border: solid 3px black;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.counterAndBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.counterAndBtn button {
+  background-color: blueviolet;
+}
+
+.resetBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.resetBtn button {
+  background-color: violet;
+  align-items: center;
+
+  font-size: 15px;
+}
+
+.btnMoins {
+  font-size: 20px;
+  width: 30px;
+}
+
+.btnPlus {
+  font-size: 20px;
+  width: 30px;
+}
+
+p {
+  font-size: large;
+  width: 50px;
+}
+
+footer {
+  border: solid 2px black;
+  text-align: center;
+  margin-top: 43%;
+}
